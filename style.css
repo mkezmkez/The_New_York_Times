@@ -21,7 +21,6 @@ main {
 
 @media (max-width: 960px) {
   .sidepicks {
-
     display: none;
     float: right;
     width: 180px;
@@ -30,7 +29,6 @@ main {
 
 @media (min-width: 960px) {
   .sidepicks {
-
     float: right;
     position: relative;
     top: -9800px;
