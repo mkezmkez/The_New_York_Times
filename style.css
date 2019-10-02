@@ -26,7 +26,6 @@ main {
   float: right;
   width: 180px;
 }
-
 }
 
 @media (min-width:960px) {
@@ -42,7 +41,6 @@ main {
   z-index: 0;
   display: flex;
   flex-flow: column wrap;
-
 }
 
 }
