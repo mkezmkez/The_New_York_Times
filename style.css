@@ -19,30 +19,29 @@ main {
   box-sizing: content-box;
 }
 
-@media (max-width:960px) { 
-.sidepicks {
+@media (max-width: 960px) {
+  .sidepicks {
 
-  display: none;
-  float: right;
-  width: 180px;
-}
-}
-
-@media (min-width:960px) {
-.sidepicks {
-
-  float: right;
-  position: relative;
-  top: -9800px;
-  width: 180px;
-  left: -40px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 9px;
-  z-index: 0;
-  display: flex;
-  flex-flow: column wrap;
+    display: none;
+    float: right;
+    width: 180px;
+  }
 }
 
+@media (min-width: 960px) {
+  .sidepicks {
+
+    float: right;
+    position: relative;
+    top: -9800px;
+    width: 180px;
+    left: -40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9px;
+    z-index: 0;
+    display: flex;
+    flex-flow: column wrap;
+  }
 }
 
 .editors > a {
